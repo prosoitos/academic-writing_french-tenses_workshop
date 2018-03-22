@@ -1,0 +1,258 @@
+#+LATEX_CLASS: beamer
+
+#+LaTeX_CLASS_OPTIONS: [aspectratio=169]
+
+#+STARTUP: beamer
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:2 \n:t ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:nil tasks:t tex:t timestamp:t title:t toc:nil todo:t |:t
+
+#+BEAMER_THEME: prosoitos
+# Metropolis theme revamped with colors from Metro theme
+
+\definecolor{MetroOrange}{RGB}{245,141,1}
+\definecolor{MetroRed}{RGB}{232,64,46}
+
+#+TITLE: Academic Writing in French
+#+BEAMER_HEADER: \subtitle{Concordance des temps}
+#+DATE:  {{{time(%B %d\, %Y)}}}
+#+AUTHOR: Marie-Hélène Burle
+#+EMAIL: msb2@sfu.ca
+#+LATEX_HEADER: \institute{\begin{normalsize}\textcolor{MetroRed}{\textbf{Student Learning Commons\\Research Commons}}\end{normalsize}\\\\\\^1msb2@sfu.ca}
+
+* Modes et Temps
+
+** Définitions
+
+*** Les modes
+\thinsp
+Les modes donnent une *connotation* à l'action ou à l'état exprimé par le verbe
+\emsp
+\emsp
+\emsp
+
+*** Les temps
+\thinsp
+Les temps apportent une information sur la *temporalité* de cette action ou de cet état
+
+** Modes
+
+L' _indicatif_ est le mode de la réalité
+
+#+BEGIN_VERSE
+S'il _fait_ beau demain, j' _irai_ me promener.
+#+END_VERSE
+
+Le _subjonctif_ est le mode de l'incertitude, du doute, du souhait
+
+#+BEGIN_VERSE
+Je ne suis pas sûre qu'il _fasse_ beau demain.
+Il est possible que je n' _aille_ pas me promener.
+#+END_VERSE
+
+Le _conditionnel_ est le mode de la politesse, du conseil, de la suggestion, du reproche, du fait imaginaire ou incertain
+
+#+BEGIN_VERSE
+S'il faisait beau demain, j' _irais_ me promener.
+#+END_VERSE
+
+* Pour cet atelier, nous n'allons nous préoccuper que de l'indicatif
+
+** Les temps de l'indicatif
+
+*** Vue d'ensemble
+
+ | *Temps simple*  | Présent       | Passé simple    | Imparfait        | Futur simple    |
+ | *Temps composé* | Passé composé | Passé antérieur | Plus-que-parfait | Futur antérieur |
+ \emsp
+ \emsp
+
+*** Conjugaison : une bonne référence
+
+#+BEGIN_QUOTE
+http://leconjugueur.lefigaro.fr/php5/index.php?v
+#+END_QUOTE
+
+
+* Choisir le temps du verbe
+
+** Le présent
+
+*** Vérité intemporelle
+
+ #+BEGIN_VERSE
+ La Terre _est_ ronde.
+ #+END_VERSE
+ \emsp
+
+*** Fait qui se déroule en ce moment
+
+#+BEGIN_VERSE
+Je _donne_ un atelier de français.
+#+END_VERSE
+\emsp
+
+*** Fait qui se poursuit dans le présent
+
+#+BEGIN_VERSE
+Ça fait deux heures que j' _attends_.
+#+END_VERSE
+
+** Les temps du passé
+
+*** Fait qui dure dans le temps, description ou habitude : _Imparfait_
+
+#+BEGIN_VERSE
+Il _était_ grand et il _marchait_ beaucoup.
+#+END_VERSE
+
+*** Fait ponctuel : _Passé simple_ ou _Passé composé_
+
+#+BEGIN_VERSE
+Il _est arrivé_ à quatre heure.
+Il _arriva_ à quatre heure.
+#+END_VERSE
+
+*** Fait antérieur à un autre fait du passé : _Plus-que-parfait_
+
+#+BEGIN_VERSE
+Quand je suis arrivée, il _était_ déjà _parti_.
+#+END_VERSE
+
+** Les temps du futur
+
+*** Fait dans le futur : _Futur simple_
+
+#+BEGIN_VERSE
+Il _partira_ demain.
+#+END_VERSE
+
+#+BEGIN_QUOTE
+Dans le langage familier, le verbe « aller » est souvent utilisé pour exprimer le futur : Il _va_ partir demain.
+#+END_QUOTE
+\emsp
+
+*** Fait du futur, mais antérieur à un autre fait du futur : _Futur antérieur_
+
+#+BEGIN_VERSE
+Quand tu arriveras, il _sera parti_.
+#+END_VERSE
+
+* Exercices
+
+** Conjuguer les verbes aux temps appropriés
+
+#+BEGIN_VERSE
+Nous (se marier) il y a 50 ans.
+
+Nous (être) ensemble depuis 50 ans.
+
+Il me racontait qu'ils (être) ensemble depuis 50 ans.
+
+Normalement, il (aller) à la fac à pied, mais ce jour là, il (prendre) le bus.
+#+END_VERSE
+
+** Déterminer le temps de tous les verbes et expliquer leur emploi
+
+#+BEGIN_VERSE
+Il lisait le journal quand la porte claqua.
+
+En 2009, il n'avait pas encore acheté sa voiture et il allait à la fac en bus.
+
+Je suis dépassée par les événements.
+#+END_VERSE
+
+* Concordance des temps
+
+** Définition
+
+La concordance des temps est la relation entre le temps des verbes des propositions principale et subordonnée
+\emsp
+\emsp
+#+BEGIN_VERSE
+Je trouve (proposition principale) que c'est bien compliqué (proposition subordonnée) !
+#+END_VERSE
+
+** Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps
+
+Il faut harmoniser les temps des propositions
+\emsp
+\thinsp
+Au présent :
+
+#+BEGIN_VERSE
+Je pense (maintenant) qu'il est ici (maintenant).
+#+END_VERSE
+
+Au passé, cela donne :
+
+#+BEGIN_VERSE
+Je pensais (hier) qu'il était ici (hier).
+#+END_VERSE
+
+** Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps
+
+*** Antériorité (le fait de la subordonnée est situé _avant_ le fait de la principale)
+
+Au présent :
+
+#+BEGIN_VERSE
+Je pense (maintenant) qu'il était ici (hier).
+#+END_VERSE
+
+Au passé :
+
+#+BEGIN_VERSE
+Je pensais (hier) qu'il était déjà parti (avant).
+#+END_VERSE
+
+*** Postériorité (le fait de la subordonnée est situé _après_ le fait de la principale)
+
+Au présent :
+
+#+BEGIN_VERSE
+Je pense (maintenant) qu'il sera ici (demain).
+#+END_VERSE
+
+Au passé :
+
+#+BEGIN_VERSE
+Je pensais (hier) qu'il serait ici (aujourd'hui).
+#+END_VERSE
+
+* Exercices
+
+** Conjuguer les verbes aux temps appropriés
+
+#+BEGIN_VERSE
+Je te dis qu'il (être - fait simultané) ici.
+
+Je te dis qu'il (être - fait antérieur) ici.
+
+Je te disais qu'il (être - fait simultané) ici.
+
+Je te disais qu'il (être fait ultérieur) ici.
+#+END_VERSE
+
+* Questions                                                     :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+\begin{center}
+\textcolor{MetroOrange}{\Huge Questions ?}
+\end{center}
+
+N'hésitez pas à prendre rendez-vous pour des consultations particulières
+
+#+BEGIN_QUOTE
+mardis de 10h à 13h
+mercredis de 13h à 15h
+#+END_QUOTE
+
+Si vous avez des suggestions d'ateliers d'écriture en français qui vous seraient utiles, venez me voir avec vos suggestions !
+\begin{center}
+\textcolor{MetroOrange}{\LARGE Merci !}
+\end{center}
