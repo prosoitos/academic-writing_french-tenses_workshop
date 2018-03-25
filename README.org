@@ -1,0 +1,3 @@
+I built this workshop to help students navigate the tenses of the indicative mode in their academic writing in French and I offer it regularly at the [[https://www.lib.sfu.ca/about/branches-depts/slc][Student Learning Commons of Simon Fraser University]]. Many points were inspired by questions and challenges I encounter often when helping students one on one in their academic writing.
+
+The emacs org mode files export to pdf that I use as presentation slides.
