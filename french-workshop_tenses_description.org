@@ -2,7 +2,7 @@
 #+OPTIONS: toc:t h:6 num:nil |:t todo:nil
 #+OPTIONS: *:t -:t ::t <:t \n:t e:t creator:nil
 #+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
-#+OPTIONS: html-preamble:t html-postamble:nil
+#+OPTIONS: html-preamble:nil html-postamble:t
 
 #+TITLE:   Road map of the indicative tenses in French
 #+DATE:	   {{{time(%B %d\, %Y)}}}
